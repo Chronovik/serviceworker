@@ -1,21 +1,16 @@
+
 {
-    "name": "my jojoj Progressive Web App",
-    "short_name": "my jojoj app",
-    "description": "Progressive Web App that lists games submitted to the A-Frame category in the js13kGames 2017 competition.",
-    "icons": [
-        [
-            {
-                "src": "/Appimages/android-launchericon-48-48.png",
-                "sizes": "48x48"
-            },
-            {
-                "src": "/Appimages/android-launchericon-512-512.png",
-                "sizes": "512x512"
-            }
-        ]
-    ],
-    "start_url": "/index.html",
+    "background_color": "purple",
+    "description": "Shows JOJO pictures.",
     "display": "fullscreen",
-    "theme_color": "#B12A34",
-    "background_color": "#B12A34"
-}
+    "icons": [
+      {
+        "src": "Appimages/android/android-launchericon-192-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "name": "Awesome JOJO pictures",
+    "short_name": "JOJO",
+    "start_url": "https://chronovik.github.io/serviceworker/index.html"
+  }
